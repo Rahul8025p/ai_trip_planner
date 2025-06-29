@@ -4,6 +4,8 @@
 
 ---
 
+🟢 **Live Project Link**: [Click to Visit](https://ai-trip-planner-team-7-tfzq.onrender.com)
+
 ## 🚀 Features
 
 - 🔍 Destination input and dynamic itinerary generation using AI
@@ -83,10 +85,68 @@ Users can manage their personal details, password, and see saved trips.
 
 ---
 
-## 🔧 Setup Instructions
+## 📁 File Structure
+
+ai-travel-planner/
+├── backend/
+│ ├── models/ # Mongoose schemas
+│ ├── routes/ # Express route handlers
+│ ├── public/ # Static assets
+│ ├── views/ # Handlebars templates
+│ ├── .env # Environment config
+│ ├── index.js # Main server file
+│ └── mongodb.js # MongoDB connection
+├── README.md
+
+
+
+---
+
+## ✨ Features
+
+- 🌍 Smart AI-based itinerary generation (Gemini API)
+- 🏨 Hotel and activity recommendations based on user preferences
+- 📷 Destination-based images using Unsplash API
+- 🧾 Save & manage past trips
+- 💬 Trip review & rating system
+- 👤 User authentication & profile management
+- 🌐 Fully responsive frontend
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Frontend Templating:** Handlebars (HBS)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **APIs:** Gemini (AI), Unsplash (images)
+- **Auth:** Session-based login
+- **Styling:** CSS, Bootstrap
+
+---
+
+## 🔧 Local Setup
 
 ```bash
 git clone https://github.com/yourusername/ai-travel-planner.git
 cd ai-travel-planner/backend
 npm install
-npm start
+
+🛠 Add .env file with:
+MONGO_URI=your_mongodb_connection_string
+UNSPLASH_ACCESS_KEY=your_unsplash_api_key
+GEMINI_API_KEY=your_gemini_api_key
+PORT=5000
+
+Then run:
+node src/indes.js
+
+
+
+---
+
+✅ You can now push this `README.md` to your GitHub repo and place all screenshots in the repo root (or `assets/` folder) for visibility.
+
+
+  College: IIIT Allahabad
+  💼 Designation: UI Developer
